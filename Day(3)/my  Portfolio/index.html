@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio page">
+    <title>Asala's Portfolio</title>
+</head>
+
+<body>
+
+    <!--header+nav-->
+    <header>
+        <h1>Asala Fathallah</h1>
+        <nav>
+            <b>
+                <a href="#">About</a><b>|</b>
+                <a href="#">Skills</a><b>|</b>
+                <a href="#">Courses</a><b>|</b>
+                <a href="#">Gallery</a><b>|</b>
+                <a href="#">Contact</a><b>|</b>
+                <a href="#">FAQ</a>
+            </b>
+        </nav>
+    </header>
+<hr>
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h1>About Me</h1>
+
+            <img src="Images/WhatsApp Image 2026-04-21 at 4.42.49 PM.jpeg" width="200px"alt="My photo">
+            <p>
+                <b><h3>Hello! I am Asala, an IT student who loves learning
+                web development and building simple projects.</h3></b>
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <hr>
+        
+        <section>
+            <h2>My Skills</h2>
+            <h3>Technical Skills</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>Git & GitHub</li>
+                <li>Basics of Python</li>
+                <li>Problem Solving</li>
+            </ul>
+
+            <h3>My Learning Journey</h3>
+
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>More Projects</li>
+            </ol>
+
+        </section>
+        <br>
+        <hr>
+
+        <!-- Courses Table -->
+        <section>
+            <h2>My Courses</h2>
+
+            <table border="1" style="text-align: center;">
+                <caption>Courses I Have Taken</caption>
+
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>HTML Basics</td>
+                        <td>2 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSS</td>
+                        <td>3 Weeks</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <td>JavaScript Basics</td>
+                        <td>4 Weeks</td>
+                        <td>not started</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3"> Do More </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Gallery Section -->
+        <section>
+            <h2>My Gallery</h2>
+
+            <figure>
+                <img src="Images/1000_F_735420023_o3LsaDf1AlI5BxHavctPp4muzMafyBhr.jpg" width="200px" alt="Coding on laptop">
+                <figcaption>Coding & Learning</figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img src="Images/1661240594139.png" width="100px" alt="Book for html & css ">
+                <figcaption>Study html </figcaption>
+            </figure>
+            <br>
+            <figure>
+                <img src="Images/JavaScript-Structure-scaled.jpg" width="200px" alt="java structure">
+                <figcaption>java structure</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="name">Full Name:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="email">Email:</label>
+                        </th>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="phone">Phone Number:</label>
+                        </th>
+                        <td>
+                            <input type="tel" id="phone" name="phone" placeholder="01000000000">
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+
+
+                <table>
+                    <tr>
+                        <th>
+                        <label for="Birthdate">Date of Birth:</label>
+                        </th>
+                        <td>
+                            <input type="date" id="Birthdate" name="Birthdate">
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+
+
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="">-- Choose a topic --</option>
+                    <option value="project">-- Project --</option>
+                    <option value="course">-- Course --</option>
+                    <option value="other">-- Other --</option>
+                </select>
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input type="radio" id="contactEmail" name="contactMethod" value="email">
+                <label for="contactEmail">Email</label>
+
+                <input type="radio" id="contactPhone" name="contactMethod" value="phone">
+                <label for="contactPhone">Phone</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..."></textarea>
+
+                <br><br>
+
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree</label>
+
+                <br><br><br>
+
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- FAQ Section -->
+        <section id="faq">
+            <h2>FAQ</h2>
+
+            <details>
+                <summary>What is this portfolio about?</summary>
+                <p>This portfolio shows my skills, courses.</p>
+            </details>
+
+            <details>
+                <summary>How can I contact you?</summary>
+                <p>You can contact me through email or phone.</p>
+            </details>
+
+            <details>
+                <summary>What technologies are you learning?</summary>
+                <p>I am learning HTML and other web development technologies.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <b>
+            &copy; 2026 Asala Fathallah.
+            </b>
+        </p>
+
+        <p>
+            Follow me:
+            <a href="#" target="_blank">GitHub</a> |
+            <a href="#" target="_blank">LinkedIn</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
