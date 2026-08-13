@@ -1,0 +1,135 @@
+HTML = HyperText Markup Language
+
+HTML is used to create and organize web page
+
+BASIC HTML TAGS
+
+`<!DOCTYPE html>` → Tells the browser that we are using HTML5.
+
+`<html>` : The main container of the page.
+
+`<head>` : Contains page information and settings.
+
+`<title>` : Sets the page title shown in the browser tab.
+
+`<body>` : Contains everything we see on the web page.
+
+`<h1>` → The biggest and main heading.
+
+`<h2> - <h6>` → Smaller headings.
+
+`<p>` → Creates a paragraph.
+
+`<br>` → Moves text to a new line.
+
+`<hr>` → Adds a horizontal line.
+
+`<b>` → Makes text bold.
+
+`<strong>` → Shows that the text is important.
+
+`<i>` → Makes text italic.
+
+`<em>` → Emphasizes the text.
+
+`<u>` → Underlines the text.
+
+`<mark>` → Highlights the text.
+
+`<small>` → Makes text smaller.
+
+`<a>` → Creates a link.
+
+`<img>` → Adds an image.
+
+`a href` → The link address.
+
+`src` → The image source/path.
+
+`alt` → Text that describes the image.
+
+`<ul>` → Creates a list with bullet points.
+
+`<ol>` → Creates a numbered list.
+
+`<li>` → Creates an item inside a list.
+
+`<table>` → Creates a table.
+
+`<tr>` → Creates a table row.
+
+`<th>` → Creates a heading cell.
+
+`<td>` → Creates a data cell.
+
+`<thead>` → Contains the table header.
+
+`<tbody>` → Contains the main table data.
+
+`<tfoot>` → Contains the table footer.
+
+`<form>` → Creates a form.
+
+`<label>` → Gives a name to an input.
+
+`<input>` → Creates an input field.
+
+`<textarea>` → Creates a large text box.
+
+`<select>` → Creates a drop-down list.
+
+`<option>` → Creates an option inside the list.
+
+`<button>` → Creates a button.
+
+`<header>` → The top part of the page.
+
+`<nav>` → Contains navigation links.
+
+`<main>` → Contains the main content.
+
+`<section>` → Defines a section of the page.
+
+`<article>` → Contains independent content.
+
+`<aside>` → Contains extra or side content.
+
+`<footer>` → The bottom part of the page.
+
+`<div>` → Groups elements together.
+
+`<span>` → Groups a small part of text.
+
+`<audio>` → Adds audio.
+
+`<video>` → Adds video.
+
+`<iframe>` → Shows another page or external content inside the page.
+
+`id` → Gives an element a unique name.
+
+`class` → Gives an element a class name.
+
+`name` → Gives a name to a form element.
+
+`type` → Defines the type of an input.
+
+`placeholder` → Shows a hint inside an input.
+
+`required` → Makes the field required.
+
+`value` → Sets the value of an input.
+
+`src` → Defines the source.
+
+`href` → Defines the link address.
+
+`alt` → Describes an image.
+
+
+ IMPORTANT TAGS
+
+`a href` → The link address.
+
+`<p>` → Creates a paragraph.
+
