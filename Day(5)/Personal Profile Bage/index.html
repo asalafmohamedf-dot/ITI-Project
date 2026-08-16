@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio page">
+    <title>Asala's Profile</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <!--header+nav-->
+    <header>
+        <h1>Asala Fathallah</h1>
+        <nav>
+            <b>
+                <a href="#">About</a><b>|</b>
+                <a href="#">Skills</a><b>|</b>
+                <a href="#">Contact</a><b>|</b>
+            </b>
+        </nav>
+    </header>
+    <main>
+        <div class="images">
+            <img src="assets/images/profile.jpeg" alt="my profile">
+            <h1>Asala</h1>
+            <p>web development</p>
+        </div>
+        <section id="About">
+                <b>
+                    <p>Hello I am Asala, an IT student who loves learning
+                        web development and building simple projects.</p>
+                </b>
+            
+        </section>
+        <section class="Skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git & GitHub</li>
+                <li>Basics of Python</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+        <br>
+        <section>
+            <h3>Contact Me</h3>
+            <form>
+                <table>
+                    <tr>
+                        <th>
+                            <label for="name">Full Name:</label>
+                        </th>
+                        <td>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="email">Email:</label>
+                        </th>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="phone">Phone Number:</label>
+                        </th>
+                        <td>
+                            <input type="tel" id="phone" name="phone" placeholder="01000000000">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+
+
+                <table>
+                    <tr>
+                        <th>
+                            <label for="Birthdate">Date of Birth:</label>
+                        </th>
+                        <td>
+                            <input type="date" id="Birthdate" name="Birthdate">
+                        </td>
+                    </tr>
+                </table>
+                <br><br>
+
+
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="">-- Choose a topic --</option>
+                    <option value="project">-- Project --</option>
+                    <option value="course">-- Course --</option>
+                    <option value="other">-- Other --</option>
+                </select>
+                <br><br>
+
+                <p>Preferred Contact Method:</p>
+
+                <input type="radio" id="contactEmail" name="contactMethod" value="email">
+                <label for="contactEmail">Email</label>
+
+                <input type="radio" id="contactPhone" name="contactMethod" value="phone">
+                <label for="contactPhone">Phone</label>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" cols="40"
+                    placeholder="Write your message here..."></textarea>
+
+
+
+                <br>
+
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        
+    </main>
+    
+    
+    <footer>
+        
+        <p>
+            Follow me:
+            <a href="#" target="_blank">GitHub</a> |
+            <a href="#" target="_blank">LinkedIn</a> |
+            <a href="#" target="_blank">Instagram</a>
+        </p>
+        <p>
+            <b>
+                &copy; 2026 Asala Fathallah.
+            </b>
+        </p>
+    </footer>
+</body>
+</html>
