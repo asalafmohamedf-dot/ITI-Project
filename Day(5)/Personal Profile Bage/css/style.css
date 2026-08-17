@@ -47,10 +47,10 @@ header{
 } */
 
 
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 :root {
     --main-color: #f4f4f7;
     --secondary-color: #7d787b;

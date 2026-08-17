@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+    background-repeat: repeat;
+    background-position: 50rem;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(162, 162, 153);
+    background-attachment: fixed;
+    background-position: 120px;
+    background-repeat: repeat;
+    background-size: 50%;
+    border-radius: 40px;
+    border: 5px solid rgba(156, 156, 153, 0.511);
+    text-align: center;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 5%;
+    box-shadow: 2px 5px 10px rgb(162, 160, 153);
+    
+
+
+}
+
+.container img{
+    border-radius: 80%;
+    border: 3px solid  rgba(128, 127, 120, 0.588);
+    width: 25%;
+}
+
+h1{
+    font-family: 'Titillium web', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(128, 127, 120, 0.588);
+    color: rgb(58, 52, 34);
+    border: 1px solid rgba(194, 193, 188, 0.582);
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    padding: 2px;
+    margin-left: 30%;
+    line-height: 4rem;
+    font-weight: 600%;
+
+}
+
+.job-title{
+    font-family: 'Istok Web', sans-serif;
+    text-transform: capitalize;
+    color: rgb(58, 52, 34);
+    padding: 2%;
+}
+
+.description{
+    font-family: 'Merriweather' , sans-serif;
+    text-transform: capitalize;
+    color: rgb(58, 52, 34);
+    padding: 4px;
+    margin: 1%;
+}
+
+.container button{
+    color: rgb(58, 52, 34);
+    border-radius: 20px;
+    width: 40%;
+    text-align: center;
+    padding: 2px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    width: 15%;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: rgba(88, 67, 15, 0.468);
+}
