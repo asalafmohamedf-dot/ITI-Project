@@ -1,9 +1,9 @@
 var username = "Asala";
 var age = 20;
 var student = true;
-var x = null;
-var y;
-var grade = 85;
+
+var grade = window.prompt("enter the grade")
+
 if (grade >= 90) {
     console.log("Excellent");
 }
