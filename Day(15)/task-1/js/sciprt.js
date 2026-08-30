@@ -45,15 +45,6 @@ getRecipes();
 function displayRecipes(recipes) {
     let contentContainer = ``;
     for (const recipe of recipes) {
-        // contentContainer += `
-        // <div class="card" style="width: 18rem;">
-        //     <img src="${recipe.image_url}" class="card-img-top" alt="${recipe.title}">
-        //     <div class="card-body">
-        //         <h2 class="card-title">${recipe.title}</h2>
-        //         <p class="card-text">${recipe.publisher}</p>
-        //     </div>
-        // </div>
-        // `;
         contentContainer += `
         <div class="col-md-4">
         <div class="recipe-card">

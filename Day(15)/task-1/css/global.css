@@ -6,36 +6,6 @@ body {
     box-sizing: border-box;
 }
 
-/* 
-.title {
-    color: #460404;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.subtitle {
-    color: #300f0f;
-    font-size: 18px;
-} */
-
-
-/* 
-.search-box {
-    height: 60px;
-    border-radius: 25px;
-    padding: 0 20px;
-} */
-
-/* 
-.search-box:focus {
-    box-shadow: 9px 4px 10px rgba(21, 21, 21, 0.795);
-    border-color: #ad5011;
-} */
-/* 
-.selectOption{
-
-} */
-
 
 .navbar {
     background-color: #6b4226d3;
