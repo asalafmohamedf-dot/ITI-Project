@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(145, 146, 147);
+}
+
+.hero {
+    width: 100%;
+    height: 95vh;
+    background-image: url("../assets/images/ground.jpg.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgba(176, 178, 179, 0.425);
+    height: 5vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(28, 28, 28, 0.749);
+    padding: 2px;
+    margin-bottom: 5px;
+    text-shadow: 4px 5px 10px rgb(6, 6, 6);
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgba(28, 28, 28, 0.749);
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.links a:hover{
+    color: rgb(6, 6, 6);
+    transform: translate(5px);
+    box-shadow: 3px 2px 10px rgb(49, 49, 49);
+}
+
+.hero-content {
+    text-align: center;
+    padding: 30px 40px;
+    color: rgb(170, 166, 166);
+}
+
+.hero-content h1 {
+    font-size: 33px;
+    margin-top: 300px;
+    background-color: rgba(102, 103, 103, 0.139);
+    border-radius: 80px;
+    width: 23%;
+    margin-left: 520px;
+    
+}
+
+.hero-p {
+    margin: 20px;
+    font-size: 20px;
+    margin-right: 60px;
+    color: rgb(170, 166, 166);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 80px;
+    margin: 40px;
+}
+
+.about img {
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+.about-content h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: rgb(35, 35, 35);
+}
+
+.about-content p {
+    font-size: 18px;
+    color: rgb(35, 35, 35);
+}
+
+
+.gallery {
+    padding: 80px;
+    text-align: center;
+    position: relative;
+
+}
+
+.gallery h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: rgb(56, 56, 56);
+    background-color: rgba(107, 107, 106, 0.623);
+    border-radius: 80px;
+    width: 23%;
+    margin-left: 500px;
+    padding: 3px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+    
+}
+
+.img-one{
+    grid-row: span 2;
+}
+.img-four{
+    grid-row: span 2;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.gallery-grid img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 1px solid rgb(59, 9, 84);
+    box-shadow: 3px 2px 10px rgb(59, 9, 84);
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+p{
+    color: rgba(24, 24, 24, 0.749);
+}
+.social-links {
+    display: flex;
+    gap: 20px;
+    transition: 0.4s;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: rgba(28, 28, 28, 0.749);
+    
+}
+
+.social-links a:hover {
+    color: rgb(6, 6, 6);
+    transform: scale(3px);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    .hero nav {
+        padding: 15px 20px;
+        height: 3vh;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .links {
+        gap: 12px;
+        flex-direction: row;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+
+    .hero {
+        height: 38vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-content {
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: 19px;
+        width: 55%;
+        margin: 100px 0px 0px 40px ;
+    }
+
+    .hero-p {
+        font-size: 14px;
+        margin: 20px 70px 0px 0px;
+    }
+
+
+    .about {
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 20px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content h2 {
+        font-size: 35px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+    }
+
+
+    .gallery {
+        padding: 50px 20px;
+    }
+
+    .gallery h2 {
+        width: 70%;
+        margin: 0px 40px 30px;
+        font-size: 32px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px 200px 200px;
+        gap: 8px;
+    }
+
+
+    footer {
+        gap: 10px;
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+
+    .social-links {
+        gap: 10px;
+    }
+
+}
